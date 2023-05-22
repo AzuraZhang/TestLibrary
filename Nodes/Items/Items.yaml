@@ -14,3 +14,23 @@ Children:
       DataType: LocalizedText
       ModellingRule: Optional
       Value: {"LocaleId":"en-US","Text":"Label1"}
+- Name: Panel1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: Panel1
+    Id: g=07ecc6ce947ab8d1c1f62290e69da67b
+    Supertype: Panel
+    ReferenceType: HasComponent
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: RuntimeNetLogic1
+      Type: NetLogic
