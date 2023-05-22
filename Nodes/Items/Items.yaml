@@ -34,3 +34,23 @@ Children:
       Value: 300.0
     - Name: RuntimeNetLogic1
       Type: NetLogic
+- Name: Panel11
+  Type: ObjectLibraryItem
+  Children:
+  - Name: Panel11
+    Id: g=f6eeec0ee4aa52c5042138dc67b214e6
+    Supertype: Panel
+    ReferenceType: HasComponent
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: NetLogic1
+      Type: NetLogic
